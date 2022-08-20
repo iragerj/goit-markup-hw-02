@@ -166,6 +166,10 @@ a {
 
 .white {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 .blue {
@@ -174,6 +178,10 @@ a {
 
 .light-grey {
   color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 .footer-address {
@@ -184,7 +192,7 @@ a {
 
 .btn {
   color: var(--main-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   cursor: pointer;
   font-family: var(--main-font);
   font-weight: 500;
